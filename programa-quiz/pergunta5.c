@@ -4,11 +4,12 @@
 
 int main(void){
 setlocale(LC_ALL, "Portuguese");
+system("color 0A");
 
 int opcao;
 
 printf(" -----------------------------------");
-printf("\n Seja bem-vindo à pergunta [número]!\n");
+printf("\n Seja bem-vindo à pergunta n°5!\n");
 printf(" -----------------------------------\n");
 
 printf("\n Qual desses jogos (todos escritos em linguagem C, assim como esse arquivo) foi o primeiro FPS 3D da história?\n");
